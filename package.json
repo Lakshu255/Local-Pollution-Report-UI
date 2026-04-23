@@ -1,14 +1,15 @@
 {
-  "name": "react-vite-tailwind",
+  "name": "local-pollution-report-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lakshu255.github.io/Local-Pollution-Report-UI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "clsx": "2.1.1",
